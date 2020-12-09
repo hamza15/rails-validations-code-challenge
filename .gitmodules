@@ -1,0 +1,3 @@
+[submodule "boat_rental_app"]
+	path = boat_rental_app
+	url = https://github.com/hamza15/rails-validations-code-challenge
