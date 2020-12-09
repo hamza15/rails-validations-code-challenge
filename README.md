@@ -2,9 +2,19 @@
 
 ## Part 1: Conceptual questions
 1. Why do we use validation?
+To stop users from saving incorrect data in database
+
+
 2. What are the [two] general types of "bad user data"?
+Users who are not savy. End up submitting missing fields, duplicates, etc
+Malicious data.
+
 3. When do validations get triggered?
+Validations are triggered before these methods: save, update, create.
+.valid? cdoes validation without saving.
+
 4. How can we see if and why a record failed validation?
+Use Errors object to see errors for that record. Re-render that page to show validation errors on that page.
 
 ## Part 2: Expand your boat rental app to include model validations
 * You were contracted to build a rental platform used by internal employees of a boat rental store. Last week's task was to build as much of the CRUD functionality as possible. This week, you will be adding validations to your main model.
